@@ -58,7 +58,7 @@
 // Z Probe (when not Z_MIN_PIN)
 //
 #ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN                     32
+  #define Z_MIN_PROBE_PIN                     9
 #endif
 
 //
@@ -88,7 +88,8 @@
 // Temperature Sensors
 //
 #define TEMP_0_PIN                             8  // Analog Input
-#define TEMP_1_PIN                             9  // Analog Input
+//#define TEMP_1_PIN                             9  // Analog Input
+#define TEMP_PROBE_PIN                         9
 #define TEMP_BED_PIN                          10  // Analog Input
 
 //
