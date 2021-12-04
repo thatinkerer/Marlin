@@ -69,7 +69,10 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(none, default config)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(by ASt thatinkerer, UMOorig-BtQr-HB-ABL" // Who made the changes.
+// UpToDate Firmware configuration for our old Ultimaker Original with 1.5.7 Mega2560 PCB,
+// BondtechQR Extruder, Heatbed with PT100 Temp.Sensor, Pinda 5V inductive sensor
+// Big thanks to the os-community 
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
